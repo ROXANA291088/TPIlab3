@@ -1,0 +1,17 @@
+-App
+    
+    -Navbar: barra de navegación principal
+        -ProductsMenu: lista de productos
+        -logo, inicio de sesión, carrito      
+    
+    -Main
+        -Slides: carrucel de imagenes con ofertas o noticias
+        -CustomizationNav: barra de personalización
+            -SwitchMode: modo oscuro/claro
+            -OrderBy: ordenar por
+            -FilterBy: filtrar por
+            -Visualization: visualizacion cantidad de articulos: pequeño(5), mediano (10),grande(15)
+        -Products 
+            -ProductsMenu
+                -ProductItem   
+    -Footer: información de contacto

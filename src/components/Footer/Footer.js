@@ -1,7 +1,11 @@
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+       {/* Mostrar link a pag de instagram */}
+       {/* Mostrar infomación del negocio como ubicación, wapp de contacto */}
+        <p>Ubicación: Rosario</p>
+    </footer>
   )
 }
 

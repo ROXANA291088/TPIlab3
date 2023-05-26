@@ -1,7 +1,16 @@
+import CustomizationNav from "../CustomizationNav/CustomizationNav"
+import Products from "../Products/Products"
+import Slides from "../Slides/Slides"
 
-const Main = () => {
+const Main = ({products}) => {
   return (
-    <div>Main</div>
+    <main>
+        {/*  carrucel de imagenes con ofertas o noticias */}
+        <Slides/>
+        {/* Barra de personalización: modo oscuro/claro, ordenar por, filtrar por, visualización */}
+        <CustomizationNav/>
+        <Products products={products}/>
+    </main>
   )
 }
 

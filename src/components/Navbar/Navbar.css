@@ -1,0 +1,27 @@
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.dropdown-toggle::after{
+    content: none;
+}
+.nav-link {
+    color: black;
+}
+
+.profileAndCarrito{
+    display: flex;
+}
+
+.profileImg {
+    height: 29px;
+    width: 35px;
+}
+
+.bolsoImg{
+    height: 27px;
+    width: 35px;
+}
